@@ -1,0 +1,30 @@
+pipeline:
+  name: test
+  identifier: test
+  projectIdentifier: AmitTest
+  orgIdentifier: default
+  tags: {}
+  stages:
+    - stage:
+        name: d2
+        identifier: d2
+        description: ""
+        type: Custom
+        spec:
+          execution:
+            steps:
+              - step:
+                  type: ShellScript
+                  name: ShellScript_1
+                  identifier: ShellScript_1
+                  spec:
+                    shell: Bash
+                    executionTarget: {}
+                    source:
+                      type: Inline
+                      spec:
+                        script: echo 123
+                    environmentVariables: []
+                    outputVariables: []
+                  timeout: 10m
+        tags: {}
