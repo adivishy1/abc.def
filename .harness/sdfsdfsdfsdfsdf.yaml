@@ -1,0 +1,21 @@
+inputSet:
+  name: sdfsdfsdfsdfsdf
+  identifier: sdfsdfsdfsdfsdf
+  orgIdentifier: default
+  projectIdentifier: GitX_Remote
+  pipeline:
+    identifier: test_cfd_remote
+    stages:
+      - stage:
+          identifier: sd
+          type: Approval
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: dsf
+                    type: HarnessApproval
+                    spec:
+                      approvers:
+                        userGroups:
+                          - account._account_all_users
