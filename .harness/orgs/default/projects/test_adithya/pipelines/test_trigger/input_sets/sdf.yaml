@@ -1,0 +1,21 @@
+inputSet:
+  name: sdf
+  identifier: sdf
+  orgIdentifier: default
+  projectIdentifier: test_adithya
+  pipeline:
+    identifier: test_trigger
+    stages:
+      - stage:
+          identifier: dsf
+          type: Approval
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: fs
+                    type: HarnessApproval
+                    spec:
+                      approvers:
+                        userGroups:
+                          - account._account_all_users
