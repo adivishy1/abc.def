@@ -1,0 +1,21 @@
+inputSet:
+  name: dfs
+  identifier: dfs
+  orgIdentifier: default
+  projectIdentifier: test_adithya
+  pipeline:
+    identifier: tesygl
+    stages:
+      - stage:
+          identifier: jh
+          type: Approval
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: hj
+                    type: HarnessApproval
+                    spec:
+                      approvers:
+                        userGroups:
+                          - account._account_all_users
