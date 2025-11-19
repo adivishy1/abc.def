@@ -3,7 +3,8 @@ pipeline:
   identifier: tesygl
   projectIdentifier: test_adithya
   orgIdentifier: default
-  tags: {}
+  tags:
+    key1: value1
   stages:
     - stage:
         name: jh
