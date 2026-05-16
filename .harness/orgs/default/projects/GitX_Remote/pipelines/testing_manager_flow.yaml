@@ -3,7 +3,7 @@ pipeline:
   identifier: testing_manager_flow
   tags: {}
   projectIdentifier: GitX_Remote
-  orgIdentifier: default
+  orgIdentifier: newOrg
   stages:
     - stage:
         name: sdf
